@@ -10,7 +10,7 @@ import Slide from "react-reveal/Slide";
 import { Parallax } from "react-parallax";
 import Skills from './pages/Skills/skill';
 import Expernice from './pages/Experince/expernice';
-import Projects from './component/projects/projecttimeline';
+// import Projects from './component/projects/projecttimeline';
 import Contact from './pages/Contact/contact';
 import Footer from './component/footer/footer';
 import Particles from "react-particles-js";
@@ -56,13 +56,13 @@ function App() {
               </Slide>
             </Container>
       </div>
-      <div>
-            <Container  className="container-box rounded">
-              <Slide duration={500}>
-              <Projects />
-              </Slide>
-            </Container>
-      </div>
+//       <div>
+//             <Container  className="container-box rounded">
+//               <Slide duration={500}>
+//               <Projects />
+//               </Slide>
+//             </Container>
+//       </div>
       <div>
             <Container  className="container-box rounded">
               <Slide duration={500}>
