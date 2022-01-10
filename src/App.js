@@ -21,7 +21,7 @@ function App() {
       <MyNavbar />
       <MyCarousal />
       <Particles
-        className="particles particles-box"
+        className="particles particles-box"  
         params={particles}
       />
       <Titlemeassage />
